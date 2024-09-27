@@ -1,0 +1,44 @@
+0.000000000           TLSv1.2                125                    Application        Data              
+0.000171256           TLSv1.2                125                    Application        Data              
+0.000052841           TLSv1.2                125                    Application        Data              
+0.000201512           TLSv1.2                110                    Application        Data              
+0.000269688           TLSv1.2                110                    Application        Data              
+0.077397146           TLSv1.2                125                    Application        Data              
+0.000190042           TCP                    86                     443               →               53958 [ACK] Seq=1 Ack=65 Win=277 Len=0 TSval=3826741295 TSecr=3781957332
+0.000000217           TCP                    86                     443               →               53958 [FIN, ACK] Seq=1 Ack=65 Win=277 Len=0 TSval=3826741295 TSecr=3781957332
+0.000065741           TCP                    86                     53958             →               443 [ACK] Seq=65 Ack=2 Win=501 Len=0 TSval=3781957411 TSecr=3826741295
+0.000037250           TCP                    86                     443               →               43446 [ACK] Seq=1 Ack=65 Win=277 Len=0 TSval=1346522487 TSecr=1100812102
+0.000000157           TCP                    86                     443               →               43446 [FIN, ACK] Seq=1 Ack=65 Win=277 Len=0 TSval=1346522487 TSecr=1100812102
+0.000019862           TCP                    86                     43446             →               443 [ACK] Seq=65 Ack=2 Win=501 Len=0 TSval=1100812181 TSecr=1346522487
+0.042980617           TCP                    86                     57590             →               443 [ACK] Seq=40 Ack=40 Win=501 Len=0 TSval=3924732581 TSecr=1549534755
+4.974781086           ICMPv6                 86                     Neighbor          Solicitation        for 2402:800:639d:e1ee:22ef:2af5:39eb:9c9 from 9c:65:ee:af:4a:37
+0.000035907           ICMPv6                 78                     Neighbor          Advertisement        2402:800:639d:e1ee:22ef:2af5:39eb:9c9 (sol)
+0.029176892           ICMPv6                 86                     Neighbor          Solicitation        for fe80::1 from 54:14:f3:05:59:f1
+0.001071606           ICMPv6                 78                     Neighbor          Advertisement        fe80::1 (rtr, sol)
+5.078027287           ICMPv6                 86                     Neighbor          Solicitation        for fe80::11c4:8aac:eba5:d324 from 9c:65:ee:af:4a:37
+0.000039883           ICMPv6                 78                     Neighbor          Advertisement        fe80::11c4:8aac:eba5:d324 (sol)
+0.896581321           192.168.1.10           203.113.131.2          DNS               96                Standard query 0x0f2c A tt-chat4-wpa.chat.zalo.me OPT
+0.000209577           192.168.1.10           203.113.131.2          DNS               96                Standard query 0xb3e3 AAAA tt-chat4-wpa.chat.zalo.me OPT
+0.005753947           203.113.131.2          192.168.1.10           DNS               177               Standard query response 0xb3e3 AAAA tt-chat4-wpa.chat.zalo.me SOA ns1.sonthuy.com.vn OPT
+0.000000469           203.113.131.2          192.168.1.10           DNS               112               Standard query response 0x0f2c A tt-chat4-wpa.chat.zalo.me A 49.213.95.132 OPT
+0.009635580           192.168.1.10           49.213.95.132          TCP               74                40594 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=637521893 TSecr=0 WS=128
+0.005794253           49.213.95.132          192.168.1.10           TCP               74                443 → 40594 [SYN, ACK] Seq=0 Ack=1 Win=28560 Len=0 MSS=1440 SACK_PERM TSval=3510960012 TSecr=637521893 WS=512
+0.000031742           192.168.1.10           49.213.95.132          TCP               66                40594 → 443 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=637521899 TSecr=3510960012
+0.000705056           192.168.1.10           49.213.95.132          TLSv1             1374              Client Hello
+0.006352506           49.213.95.132          192.168.1.10           TCP               66                443 → 40594 [ACK] Seq=1 Ack=1309 Win=31232 Len=0 TSval=3510960019 TSecr=637521899
+0.000212302           49.213.95.132          192.168.1.10           TLSv1.3           320               Server Hello, Change Cipher Spec, Application Data, Application Data
+0.000027027           192.168.1.10           49.213.95.132          TCP               66                40594 → 443 [ACK] Seq=1309 Ack=255 Win=64128 Len=0 TSval=637521906 TSecr=3510960019
+0.000809095           192.168.1.10           49.213.95.132          TLSv1.3           146               Change Cipher Spec, Application Data
+0.000449136           192.168.1.10           49.213.95.132          TLSv1.3           236               Application Data
+0.000028539           192.168.1.10           49.213.95.132          TLSv1.3           929               Application Data
+0.006638791           49.213.95.132          192.168.1.10           TLSv1.3           369               Application Data
+0.000168069           49.213.95.132          192.168.1.10           TLSv1.3           128               Application Data
+0.000407631           192.168.1.10           49.213.95.132          TCP               66                40594 → 443 [ACK] Seq=2422 Ack=620 Win=64128 Len=0 TSval=637521915 TSecr=3510960027
+0.000052557           192.168.1.10           49.213.95.132          TLSv1.3           97                Application Data
+0.009014155           49.213.95.132          192.168.1.10           TCP               66                443 → 40594 [ACK] Seq=620 Ack=2422 Win=36864 Len=0 TSval=3510960029 TSecr=637521907
+0.000000227           49.213.95.132          192.168.1.10           TLSv1.3           230               Application Data
+0.000000046           49.213.95.132          192.168.1.10           TLSv1.3           172               Application Data
+0.000356377           192.168.1.10           49.213.95.132          TCP               66                40594 → 443 [ACK] Seq=2453 Ack=890 Win=64128 Len=0 TSval=637521924 TSecr=3510960029
+0.037876114           49.213.95.132          192.168.1.10           TCP               66                443 → 40594 [ACK] Seq=890 Ack=2453 Win=36864 Len=0 TSval=3510960074 TSecr=637521915
+4.929514489           ARP                    42                     Who               has               192.168.1.10? Tell 192.168.1.1
+0.000034949           ARP                    42                     192.168.1.10        is                at 54:14:f3:05:59:f1
